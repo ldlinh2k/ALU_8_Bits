@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:3:17: object plugin is not a member of package vexriscv[0m
+[0m[[0m[31merror[0m] [0m[0mimport vexriscv.plugin._[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:4:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:5:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.lib._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:14:29: not found: type Plugin[0m
+[0m[[0m[31merror[0m] [0m[0m  val plugins = ArrayBuffer[Plugin[T]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:3:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:4:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.lib._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:15:23: not found: type Area[0m
+[0m[[0m[31merror[0m] [0m[0mclass Stage() extends Area{[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:79:53: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m    val inputOutputKeys = mutable.HashMap[Stageable[Data],KeyInfo]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:80:51: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m    val insertedStageable = mutable.Set[Stageable[Data]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:66:44: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m  val inserts  = mutable.HashMap[Stageable[Data],Data]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:66:50: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m  val inserts  = mutable.HashMap[Stageable[Data],Data]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:86:48: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m    val missingInserts = mutable.Set[Stageable[Data]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:63:44: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m  val inputs   = mutable.HashMap[Stageable[Data],Data]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:63:50: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m  val inputs   = mutable.HashMap[Stageable[Data],Data]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:64:44: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m  val outputs  = mutable.HashMap[Stageable[Data],Data]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:64:50: not found: type Data[0m
+[0m[[0m[31merror[0m] [0m[0m  val outputs  = mutable.HashMap[Stageable[Data],Data]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:48:25: not found: type Area[0m
+[0m[[0m[31merror[0m] [0m[0m  val arbitration = new Area{[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:49:23: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m    val haltItself  = False   //user settable, stuck the instruction, should only be set by the instruction itself[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:50:23: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m    val haltByOther = False   //When settable, stuck the instruction, should only be set by something else than the stucked instruction[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:51:23: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m    val removeIt    = False   //When settable, unschedule the instruction as if it was never executed (no side effect)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:52:23: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m    val flushAll    = False   //When settable, unschedule instructions in the current stage and all prior ones[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:53:23: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val isValid     = Bool //Inform if a instruction is in the current stage[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:54:23: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val isStuck     = Bool           //Inform if the instruction is stuck (haltItself || haltByOther)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:55:27: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val isStuckByOthers = Bool       //Inform if the instruction is stuck by sombody else[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:57:23: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val isFlushed   = Bool           //Inform if the instruction is flushed (flushAll set in the current or subsequents stages)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:58:24: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val isMoving     = Bool           //Inform if the instruction is going somewere else (next stage or unscheduled)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Stage.scala:59:23: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val isFiring    = Bool           //Inform if the current instruction will go to the next stage the next cycle (isValid && !isStuck && !removeIt)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:149:7: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m      when(!stage.arbitration.isStuck || stage.arbitration.removeIt) {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:152:7: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m      when(!stageBefore.arbitration.isStuck && !stageBefore.arbitration.removeIt) {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Pipeline.scala:159:3: not found: value Component[0m
+[0m[[0m[31merror[0m] [0m[0m  Component.current.addPrePopTask(() => build())[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:3:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:7:24: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  def funct7Range = 31 downto 25[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:8:20: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  def rdRange = 11 downto 7[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:9:24: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  def funct3Range = 14 downto 12[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:10:21: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  def rs1Range = 19 downto 15[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:11:21: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  def rs2Range = 24 downto 20[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:12:21: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  def csrRange = 31 downto 20[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:14:47: not found: type Area[0m
+[0m[[0m[31merror[0m] [0m[0m  case class IMM(instruction  : Bits) extends Area{[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:14:33: not found: type Bits[0m
+[0m[[0m[31merror[0m] [0m[0m  case class IMM(instruction  : Bits) extends Area{[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:24:18: not found: value B[0m
+[0m[[0m[31merror[0m] [0m[0m    def i_sext = B((19 downto 0) -> i(11)) ## i[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:24:24: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    def i_sext = B((19 downto 0) -> i(11)) ## i[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:25:18: not found: value B[0m
+[0m[[0m[31merror[0m] [0m[0m    def s_sext = B((19 downto 0) -> s(11)) ## s[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:25:24: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    def s_sext = B((19 downto 0) -> s(11)) ## s[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:26:18: not found: value B[0m
+[0m[[0m[31merror[0m] [0m[0m    def b_sext = B((18 downto 0) -> b(11)) ## b ## False[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:26:24: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    def b_sext = B((18 downto 0) -> b(11)) ## b ## False[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:26:52: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m    def b_sext = B((18 downto 0) -> b(11)) ## b ## False[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:27:18: not found: value B[0m
+[0m[[0m[31merror[0m] [0m[0m    def j_sext = B((10 downto 0) -> j(19)) ## j ## False[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:27:24: value downto is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    def j_sext = B((10 downto 0) -> j(19)) ## j ## False[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:27:52: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m    def j_sext = B((10 downto 0) -> j(19)) ## j ## False[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:31:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def ADD                = M"0000000----------000-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:32:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SUB                = M"0100000----------000-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:33:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SLL                = M"0000000----------001-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:34:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SLT                = M"0000000----------010-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:35:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SLTU               = M"0000000----------011-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:36:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def XOR                = M"0000000----------100-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:37:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SRL                = M"0000000----------101-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:38:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SRA                = M"0100000----------101-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:39:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def OR                 = M"0000000----------110-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:40:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AND                = M"0000000----------111-----0110011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:42:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def ADDI               = M"-----------------000-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:43:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SLLI               = M"000000-----------001-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:44:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SLTI               = M"-----------------010-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:45:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SLTIU              = M"-----------------011-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:46:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def XORI               = M"-----------------100-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:47:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SRLI               = M"000000-----------101-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:48:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SRAI               = M"010000-----------101-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:49:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def ORI                = M"-----------------110-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:50:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def ANDI               = M"-----------------111-----0010011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:52:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def LB                 = M"-----------------000-----0000011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:53:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def LH                 = M"-----------------001-----0000011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:54:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def LW                 = M"-----------------010-----0000011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:55:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def LBU                = M"-----------------100-----0000011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:56:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def LHU                = M"-----------------101-----0000011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:57:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def LWU                = M"-----------------110-----0000011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:58:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SB                 = M"-----------------000-----0100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:59:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SH                 = M"-----------------001-----0100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:60:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SW                 = M"-----------------010-----0100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:62:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def LR                 = M"00010--00000-----010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:63:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def SC                 = M"00011------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:65:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOSWAP            = M"00001------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:66:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOADD             = M"00000------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:67:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOXOR             = M"00100------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:68:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOAND             = M"01100------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:69:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOOR              = M"01000------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:70:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOMIN             = M"10000------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:71:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOMAX             = M"10100------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:72:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOMINU            = M"11000------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:73:28: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def AMOMAXU            = M"11100------------010-----0101111"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:75:37: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BEQ (rvc : Boolean) = if(rvc) M"-----------------000-----1100011" else M"-----------------000---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:75:78: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BEQ (rvc : Boolean) = if(rvc) M"-----------------000-----1100011" else M"-----------------000---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:76:37: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BNE (rvc : Boolean) = if(rvc) M"-----------------001-----1100011" else M"-----------------001---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:76:78: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BNE (rvc : Boolean) = if(rvc) M"-----------------001-----1100011" else M"-----------------001---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:77:37: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BLT (rvc : Boolean) = if(rvc) M"-----------------100-----1100011" else M"-----------------100---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:77:78: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BLT (rvc : Boolean) = if(rvc) M"-----------------100-----1100011" else M"-----------------100---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:78:37: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BGE (rvc : Boolean) = if(rvc) M"-----------------101-----1100011" else M"-----------------101---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:78:78: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BGE (rvc : Boolean) = if(rvc) M"-----------------101-----1100011" else M"-----------------101---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:79:37: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BLTU(rvc : Boolean) = if(rvc) M"-----------------110-----1100011" else M"-----------------110---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:79:78: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BLTU(rvc : Boolean) = if(rvc) M"-----------------110-----1100011" else M"-----------------110---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:80:37: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BGEU(rvc : Boolean) = if(rvc) M"-----------------111-----1100011" else M"-----------------111---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/linh/KLTN/VexRiscv/src/main/scala/vexriscv/Riscv.scala:80:78: value M is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m  def BGEU(rvc : Boolean) = if(rvc) M"-----------------111-----1100011" else M"-----------------111---0-1100011"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m

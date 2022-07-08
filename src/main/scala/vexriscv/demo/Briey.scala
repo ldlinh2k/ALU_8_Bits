@@ -107,7 +107,8 @@ object BrieyConfig{
           zeroBoot = false
         ),
         new IntAluPlugin,
-	new Con_Cate_Bits_Plugin,
+	     // new Con_Cate_Bits_Plugin,
+        new MY_ALU_PLUGIN,
         new SrcPlugin(
           separatedAddSub = false,
           executeInsertion = true
@@ -186,12 +187,10 @@ class Briey(config: BrieyConfig) extends Component{
     val gpioB         = master(TriStateArray(32 bits))
     
     //config---------------------------------------------------------
-    val gpioChipselect_n       = master(TriStateArray(32 bits))
-    val gpioWrite_n         	= master(TriStateArray(32 bits))
-    val gpioRead_n         	= master(TriStateArray(32 bits))
-    val gpioAddress         	= master(TriStateArray(32 bits))
-    val gpioData         	= master(TriStateArray(32 bits))
-    val gpioOutputData         = master(TriStateArray(32 bits))
+    val gpio_ALU_op =  master(TriStateArray(2 bits));
+    val gpio_ALU_rs1 =  master(TriStateArray(32 bits));
+    val gpio_ALU_rs2 =  master(TriStateArray(32 bits));
+    val gpio_ALU_rd =  master(TriStateArray(32 bits));
     
     //--------------------------------------------------------
     val uart          = master(Uart())
@@ -276,27 +275,19 @@ class Briey(config: BrieyConfig) extends Component{
       withReadSync = true
     )
     //Config-------------------------
-    val gpioChipselect_nCtrl = Apb3Gpio(
+    val gpio_ALU_op_Ctrl= Apb3Gpio(
+      gpioWidth = 2,
+      withReadSync = true
+    )
+    val gpio_ALU_rs1_Ctrl = Apb3Gpio(
       gpioWidth = 32,
       withReadSync = true
     )
-    val gpioWrite_nCtrl = Apb3Gpio(
+    val gpio_ALU_rs2_Ctrl = Apb3Gpio(
       gpioWidth = 32,
       withReadSync = true
     )
-    val gpioRead_nCtrl = Apb3Gpio(
-      gpioWidth = 32,
-      withReadSync = true
-    )
-    val gpioAddressCtrl = Apb3Gpio(
-      gpioWidth = 32,
-      withReadSync = true
-    )
-    val gpioDataCtrl = Apb3Gpio(
-      gpioWidth = 32,
-      withReadSync = true
-    )
-    val gpioOutputDataCtrl = Apb3Gpio(
+    val gpio_ALU_rd_Ctrl = Apb3Gpio(
       gpioWidth = 32,
       withReadSync = true
     )
@@ -403,12 +394,10 @@ class Briey(config: BrieyConfig) extends Component{
         gpioACtrl.io.apb -> (0x00000, 4 kB),
         gpioBCtrl.io.apb -> (0x01000, 4 kB),
         //Config-----------------------------------
-        gpioChipselect_nCtrl.io.apb ->(0x2000,4 kB),
-        gpioRead_nCtrl.io.apb ->(0x3000,4 kB),
-        gpioWrite_nCtrl.io.apb ->(0x4000,4 kB),
-        gpioAddressCtrl.io.apb ->(0x5000,4 kB),
-        gpioDataCtrl.io.apb ->(0x6000,4 kB),
-        gpioOutputDataCtrl.io.apb ->(0x7000,4 kB),
+        gpio_ALU_op_Ctrl.io.apb ->(0x2000,4 kB),
+        gpio_ALU_rs1_Ctrl.io.apb ->(0x3000,4 kB),
+        gpio_ALU_rs2_Ctrl.io.apb ->(0x4000,4 kB),
+        gpio_ALU_rd_Ctrl.io.apb ->(0x5000,4 kB),
         //---------------------------------------------
         
         uartCtrl.io.apb  -> (0x10000, 4 kB),
@@ -426,13 +415,10 @@ class Briey(config: BrieyConfig) extends Component{
   io.vga            <> axi.vgaCtrl.io.vga
   
   //Config
-  io.gpioChipselect_n <>axi.gpioChipselect_nCtrl.io.gpio
-  io.gpioRead_n <>axi.gpioRead_nCtrl.io.gpio
-  io.gpioWrite_n <>axi.gpioWrite_nCtrl.io.gpio
-  io.gpioAddress<>axi.gpioAddressCtrl.io.gpio
-  io.gpioData<>axi.gpioDataCtrl.io.gpio
-  io.gpioOutputData <>axi.gpioOutputDataCtrl.io.gpio
-  
+  io.gpio_ALU_op <>axi.gpio_ALU_op_Ctrl.io.gpio
+  io.gpio_ALU_rs1 <>axi.gpio_ALU_rs1_Ctrl.io.gpio
+  io.gpio_ALU_rs2 <>axi.gpio_ALU_rs2_Ctrl.io.gpio
+  io.gpio_ALU_rd<>axi.gpio_ALU_rd_Ctrl.io.gpio 
 }
 
 //DE1-SoC
