@@ -186,14 +186,14 @@ class Briey(config: BrieyConfig) extends Component{
     val gpioB         = master(TriStateArray(32 bits))
     
     //config---------------------------------------------------------
-    val gpioChipselect_n       = master(TriStateArray(1 bits))
-    val gpioWrite_n         	= master(TriStateArray(1 bits))
-    val gpioRead_n         	= master(TriStateArray(1 bits))
-    val gpioAddress         	= master(TriStateArray(5 bits))
+    val gpioChipselect_n       = master(TriStateArray(32 bits))
+    val gpioWrite_n         	= master(TriStateArray(32 bits))
+    val gpioRead_n         	= master(TriStateArray(32 bits))
+    val gpioAddress         	= master(TriStateArray(32 bits))
     val gpioData         	= master(TriStateArray(32 bits))
     val gpioOutputData         = master(TriStateArray(32 bits))
     
-    //config---------------------------------------------------------
+    //--------------------------------------------------------
     val uart          = master(Uart())
     val vga           = master(Vga(vgaRgbConfig))
     val timerExternal = in(PinsecTimerCtrlExternal())
@@ -277,19 +277,19 @@ class Briey(config: BrieyConfig) extends Component{
     )
     //Config-------------------------
     val gpioChipselect_nCtrl = Apb3Gpio(
-      gpioWidth = 1,
+      gpioWidth = 32,
       withReadSync = true
     )
     val gpioWrite_nCtrl = Apb3Gpio(
-      gpioWidth = 1,
+      gpioWidth = 32,
       withReadSync = true
     )
     val gpioRead_nCtrl = Apb3Gpio(
-      gpioWidth = 1,
+      gpioWidth = 32,
       withReadSync = true
     )
     val gpioAddressCtrl = Apb3Gpio(
-      gpioWidth = 5,
+      gpioWidth = 32,
       withReadSync = true
     )
     val gpioDataCtrl = Apb3Gpio(
