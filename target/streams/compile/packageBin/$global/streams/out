@@ -144,8 +144,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/FormalPlugin$$anon$1$$anonfun$4$$anonfun$apply$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/FullBarrelShifterPlugin$$anon$2$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/FullBarrelShifterPlugin$$anon$2$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/MY_ALU_PLUGIN$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MY_ALU_PLUGIN$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DBusSimplePlugin$$anonfun$19$$anon$8$$anonfun$13$$anonfun$apply$mcV$sp$8$$anonfun$apply$mcV$sp$9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DBusSimplePlugin$$anonfun$19$$anon$8$$anonfun$13$$anonfun$apply$mcV$sp$8$$anonfun$apply$mcV$sp$9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DebugPlugin$$anonfun$10$$anon$2$$anonfun$6$$anonfun$apply$mcV$sp$9.class[0m
@@ -184,8 +182,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DecoderSimplePlugin$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/VexRiscvConfig$IS_RVC$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/VexRiscvConfig$IS_RVC$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/MY_ALU_PLUGIN$ALU_CALC$$anonfun$$lessinit$greater$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MY_ALU_PLUGIN$ALU_CALC$$anonfun$$lessinit$greater$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DebugPlugin$DO_EBREAK$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DebugPlugin$DO_EBREAK$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/Pipeline$$anonfun$build$6.class[0m
@@ -670,8 +666,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/IBusCachedPlugin$$anon$1$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/VexRiscvConfig$FORMAL_MEM_WDATA$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/VexRiscvConfig$FORMAL_MEM_WDATA$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/MY_ALU_PLUGIN$$anon$2$$anonfun$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MY_ALU_PLUGIN$$anon$2$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DebugPlugin$$anonfun$10$$anon$2$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DebugPlugin$$anonfun$10$$anon$2$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/Pipeline$$anonfun$build$8$$anonfun$apply$7.class[0m
@@ -1228,6 +1222,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/CsrPlugin$$anon$15$$anon$16$$anonfun$5$$anonfun$apply$mcV$sp$23$$anonfun$apply$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/AllSynthesisBench$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/AllSynthesisBench$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/MY_ALU_PLUGIN$$anon$1$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MY_ALU_PLUGIN$$anon$1$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/MuraxConfig$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/MuraxConfig$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/CsrPlugin$$anon$15$$anon$16$$anonfun$5$$anonfun$apply$mcV$sp$23$$anonfun$apply$1$$anonfun$56.class[0m
@@ -1426,8 +1422,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/BrieySPIExternalDDR$$anon$5$$anonfun$13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Briey$$anon$3$$anon$4$$anonfun$5$$anonfun$apply$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Briey$$anon$3$$anon$4$$anonfun$5$$anonfun$apply$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/MY_ALU_PLUGIN$ALU_CALC$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MY_ALU_PLUGIN$ALU_CALC$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DBusSimplePlugin$$anon$7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DBusSimplePlugin$$anon$7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/CsrPlugin$$anonfun$37$$anon$9$$anon$13$$anonfun$39.class[0m

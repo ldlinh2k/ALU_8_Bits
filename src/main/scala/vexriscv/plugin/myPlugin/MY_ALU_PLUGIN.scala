@@ -4,10 +4,9 @@ import spinal.core._
 import spinal.lib._
 import vexriscv.{DecoderService, Stageable, VexRiscv}
 
-case class MY_ALU_PLUGIN(encoding : MaskedLiteral = M"-----------------111-----0101011") extends Plugin[VexRiscv]{ // Fixed
+case class MY_ALU_PLUGIN(encoding : MaskedLiteral = M"0000000------------------0101011") extends Plugin[VexRiscv]{ // Fixed
 
   object IS_ALU extends Stageable(Bool)
-  object ALU_CALC extends Stageable(Bits(32 bits))
 
 
   //Callback to setup the plugin and ask for different services
@@ -40,16 +39,16 @@ case class MY_ALU_PLUGIN(encoding : MaskedLiteral = M"-----------------111-----0
     //FIX - New variable 
       val rs1 = input(RS1).asUInt
       val rs2 = input(RS2).asUInt
-      val rd = U(16 bits,default ->False)
-      val operation = input(INSTRUCTION)(31 downto 25).asUInt
+      val rd = U(32 bits,default ->False)
+      val operation = input(INSTRUCTION)(14 downto 12).asUInt
 
       switch(operation)
       {
         is(0){
-            rd(8 downto 0) := (rs1(7 downto 0) + rs2 (7 downto 0)).resized //ADD
+            rd(7 downto 0) := rs1(7 downto 0) + rs2 (7 downto 0) //ADD
         }
         is(1){
-            rd(7 downto 0) := rs1(7 downto 0) - rs2 (7 downto 0) //SUB
+            rd(7 downto 0) := rs1(7 downto 0) - rs2 (7 downto 0)
         }
         is(2){
             rd :=(rs1(7 downto 0) << rs2(2 downto 0)).resized // SLL, rd= rs1<<rs2[2:0]
@@ -58,15 +57,10 @@ case class MY_ALU_PLUGIN(encoding : MaskedLiteral = M"-----------------111-----0
             rd :=(rs1(7 downto 0) >> rs2(2 downto 0)).resized  //SRL, rd =rs1>>rs2[2:0]
         }
       }
-      execute.insert(ALU_CALC):=rd.asBits.resized
-    }
-
-    writeBack plug new Area {
-      import writeBack._
-
-      when(input(IS_ALU)) {
-        output(REGFILE_WRITE_DATA) := input(ALU_CALC)
+       when(execute.input(IS_ALU)) {
+        execute.output(REGFILE_WRITE_DATA) := rd.asBits
       }
     }
+
   }
 }

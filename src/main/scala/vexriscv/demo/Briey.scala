@@ -187,7 +187,7 @@ class Briey(config: BrieyConfig) extends Component{
     val gpioB         = master(TriStateArray(32 bits))
     
     //config---------------------------------------------------------
-    val gpio_ALU_op =  master(TriStateArray(2 bits));
+    val gpio_ALU_op =  master(TriStateArray(32 bits));
     val gpio_ALU_rs1 =  master(TriStateArray(32 bits));
     val gpio_ALU_rs2 =  master(TriStateArray(32 bits));
     val gpio_ALU_rd =  master(TriStateArray(32 bits));
@@ -276,7 +276,7 @@ class Briey(config: BrieyConfig) extends Component{
     )
     //Config-------------------------
     val gpio_ALU_op_Ctrl= Apb3Gpio(
-      gpioWidth = 2,
+      gpioWidth = 32,
       withReadSync = true
     )
     val gpio_ALU_rs1_Ctrl = Apb3Gpio(
@@ -394,10 +394,10 @@ class Briey(config: BrieyConfig) extends Component{
         gpioACtrl.io.apb -> (0x00000, 4 kB),
         gpioBCtrl.io.apb -> (0x01000, 4 kB),
         //Config-----------------------------------
-        gpio_ALU_op_Ctrl.io.apb ->(0x2000,4 kB),
-        gpio_ALU_rs1_Ctrl.io.apb ->(0x3000,4 kB),
-        gpio_ALU_rs2_Ctrl.io.apb ->(0x4000,4 kB),
-        gpio_ALU_rd_Ctrl.io.apb ->(0x5000,4 kB),
+        gpio_ALU_op_Ctrl.io.apb ->(0x08000,4 kB),
+        gpio_ALU_rs1_Ctrl.io.apb ->(0x09000,4 kB),
+        gpio_ALU_rs2_Ctrl.io.apb ->(0x0A000,4 kB),
+        gpio_ALU_rd_Ctrl.io.apb ->(0x0B000,4 kB),
         //---------------------------------------------
         
         uartCtrl.io.apb  -> (0x10000, 4 kB),
