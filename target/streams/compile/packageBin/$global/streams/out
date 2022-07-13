@@ -166,6 +166,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/ip/InstructionCacheConfig$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/BrieySPIExternalDDR$$anon$6$$anonfun$18.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/BrieySPIExternalDDR$$anon$6$$anonfun$18.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/SHA256_wrapper$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/SHA256_wrapper$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Murax$$anon$4$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Murax$$anon$4$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/ip/InstructionCache$delayedInit$body.class[0m
@@ -212,6 +214,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/NoPipeliningPlugin.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Briey$$anon$3$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Briey$$anon$3$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$IS_AES$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$IS_AES$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/FetchPredictionCmd.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/FetchPredictionCmd.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/TightlyCoupledPortParameter.class[0m
@@ -554,6 +558,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/IBusFetcherImpl$FetchArea$$anonfun$52$$anon$11$BranchPredictorLine.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Briey_ROHM_Jan2020$$anon$2$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Briey_ROHM_Jan2020$$anon$2$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$AES_CALC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$AES_CALC$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/IBusFetcherImpl$FetchArea$$anon$7$$anon$9$$anonfun$48.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/IBusFetcherImpl$FetchArea$$anon$7$$anon$9$$anonfun$48.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/SrcPlugin$$anon$1.class[0m
@@ -914,6 +920,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/Pipeline$$anonfun$build$13$$anonfun$apply$1$$anonfun$apply$mcVI$sp$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Briey$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Briey$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/SHA256_wrapper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/SHA256_wrapper.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Briey$$anon$2$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Briey$$anon$2$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/SymplifyBit$$anonfun$14.class[0m
@@ -1094,6 +1102,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MEMORY_16x32.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/CsrPlugin$$anon$15$$anon$21$$anonfun$21$$anonfun$apply$mcV$sp$19$$anonfun$apply$mcV$sp$27.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/CsrPlugin$$anon$15$$anon$21$$anonfun$21$$anonfun$apply$mcV$sp$19$$anonfun$apply$mcV$sp$27.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DBusCachedPlugin$$anon$4$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DBusCachedPlugin$$anon$4$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/GenCustomCsr$delayedInit$body.class[0m
@@ -1450,6 +1460,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/BRANCH_CTRL$$anonfun$$lessinit$greater$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/MulPlugin$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MulPlugin$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$$anon$4$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$$anon$4$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	spinal[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/spinal[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Murax_iCE40_hx8k_breakout_board_xip$SB_IO_SCLK.class[0m
@@ -1536,6 +1548,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MulPlugin$$anon$1$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/CsrPlugin$Delegator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/CsrPlugin$Delegator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/SymplifyBit$$anonfun$getPrimeImplicantsByTrueAndFalse$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/SymplifyBit$$anonfun$getPrimeImplicantsByTrueAndFalse$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/CsrPlugin$$anon$15$$anon$21$$anonfun$21$$anonfun$apply$mcV$sp$19.class[0m
@@ -1934,6 +1948,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MulDivIterativePlugin$$anon$1$$anonfun$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/VexRiscvConfig$RS1_USE$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/VexRiscvConfig$RS1_USE$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$$anon$2$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$$anon$2$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Briey_ROHM_Jan2020$$anon$3$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Briey_ROHM_Jan2020$$anon$3$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/Pipeline$$anonfun$build$5.class[0m
@@ -2066,6 +2082,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/VexRiscvConfig$REGFILE_WRITE_DATA$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Apb3Rom$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Apb3Rom$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/SHA256_wrapper$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/SHA256_wrapper$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/Apb3Rom$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/Apb3Rom$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/MulPlugin$IS_MUL$.class[0m
@@ -2098,6 +2116,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/BrieySynthesisBench$$anon$11$$anonfun$11.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DBusSimplePlugin$ALIGNEMENT_FAULT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DBusSimplePlugin$ALIGNEMENT_FAULT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/Symplify$$anonfun$apply$10$$anonfun$12.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/Symplify$$anonfun$apply$10$$anonfun$12.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/BrieyExternalDDR$$anon$3$$anonfun$5.class[0m
@@ -2360,6 +2380,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/BranchPlugin$IS_FENCEI$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/BrieySPIExternalDDR.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/demo/BrieySPIExternalDDR.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/CsrRead$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/CsrRead$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/RvcDecompressor$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class[0m
@@ -2480,6 +2502,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MulDivIterativePlugin$$anon$1$$anonfun$10$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/IBusCachedPlugin$IBUS_MMU_MISS$$anonfun$$lessinit$greater$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/IBusCachedPlugin$IBUS_MMU_MISS$$anonfun$$lessinit$greater$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$AES_CALC$$anonfun$$lessinit$greater$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$AES_CALC$$anonfun$$lessinit$greater$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/IBusFetcherImpl$FetchArea$$anon$5$$anonfun$34.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/IBusFetcherImpl$FetchArea$$anon$5$$anonfun$34.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/demo/BrieyExternalDDR$$anon$2$$anonfun$1.class[0m
@@ -2492,6 +2516,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/SrcPlugin$$anon$3$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/IntAluPlugin.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/IntAluPlugin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$IS_AES$$anonfun$$lessinit$greater$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$IS_AES$$anonfun$$lessinit$greater$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DBusCachedPlugin$$anon$5$$anonfun$7$$anonfun$apply$mcV$sp$8$$anonfun$apply$mcV$sp$9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/DBusCachedPlugin$$anon$5$$anonfun$7$$anonfun$apply$mcV$sp$8$$anonfun$apply$mcV$sp$9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/ip/DataCache$$anon$12$$anonfun$14.class[0m
@@ -2744,6 +2770,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/MmuPort$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/SymplifyBit$$anonfun$getPrimeImplicantsByTrueAndDontCare$1$$anonfun$apply$mcVI$sp$12$$anonfun$apply$29.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/SymplifyBit$$anonfun$getPrimeImplicantsByTrueAndDontCare$1$$anonfun$apply$mcVI$sp$12$$anonfun$apply$29.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/AES128_Plugin$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/plugin/AES128_Plugin$$anon$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/ip/DataCache$$anon$8$$anonfun$36.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/linh/KLTN/VexRiscv/target/scala-2.11/classes/vexriscv/ip/DataCache$$anon$8$$anonfun$36.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vexriscv/plugin/DecoderSimplePlugin$$anonfun$build$3$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class[0m

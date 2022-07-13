@@ -4,7 +4,7 @@
 		module="vexriscv_2.11"
 		revision="2.0.0"
 		status="integration"
-		publication="20220618151204"
+		publication="20220714012048"
 	>
 		<description>
 		VexRiscv
